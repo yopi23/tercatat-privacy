@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kebijakan Privasi - Catat Uang</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.7;
+            color: #1a1a2e;
+            background: #f8f9ff;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 32px;
+            border-bottom: 2px solid #e8eaf6;
+        }
+        .header .icon { font-size: 48px; margin-bottom: 12px; }
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin-bottom: 8px;
+        }
+        .header .subtitle {
+            color: #666;
+            font-size: 14px;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 32px 0 12px;
+            color: #1a1a2e;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        h2 .emoji { font-size: 22px; }
+        p, li {
+            color: #444;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 16px;
+        }
+        li { margin-bottom: 6px; }
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+            border: 1px solid #e8eaf6;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        .highlight {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 16px 20px;
+            border-radius: 0 12px 12px 0;
+            margin: 16px 0;
+        }
+        .highlight p { color: #2e7d32; margin: 0; font-weight: 500; }
+        .warning {
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+            padding: 16px 20px;
+            border-radius: 0 12px 12px 0;
+            margin: 16px 0;
+        }
+        .warning p { color: #e65100; margin: 0; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0;
+            font-size: 14px;
+        }
+        th, td {
+            padding: 10px 14px;
+            text-align: left;
+            border-bottom: 1px solid #e8eaf6;
+        }
+        th { background: #f3f4f8; font-weight: 600; color: #1a1a2e; }
+        .footer {
+            text-align: center;
+            padding-top: 32px;
+            margin-top: 40px;
+            border-top: 2px solid #e8eaf6;
+            color: #888;
+            font-size: 13px;
+        }
+        a { color: #5c6bc0; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        @media (max-width: 600px) {
+            .container { padding: 24px 16px; }
+            .header h1 { font-size: 22px; }
+            h2 { font-size: 17px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="icon">💰</div>
+            <h1>Kebijakan Privasi</h1>
+            <p><strong>Catat Uang</strong> — Aplikasi Pencatatan Keuangan</p>
+            <p class="subtitle">Terakhir diperbarui: 7 Maret 2026</p>
+        </div>
+
+        <div class="card">
+            <h2><span class="emoji">👋</span> Pendahuluan</h2>
+            <p>
+                Kebijakan privasi ini menjelaskan bagaimana aplikasi <strong>Catat Uang</strong> ("kami", "aplikasi") 
+                mengumpulkan, menggunakan, dan melindungi informasi Anda saat menggunakan aplikasi kami.
+            </p>
+            <div class="highlight">
+                <p>✅ Catat Uang adalah aplikasi <strong>offline-first</strong>. Semua data keuangan Anda disimpan secara lokal di perangkat Anda dan tidak pernah dikirim ke server kami.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="emoji">📊</span> Data yang Dikumpulkan</h2>
+            
+            <h3 style="margin: 16px 0 8px; font-size: 16px;">Data yang Disimpan Secara Lokal (di perangkat Anda)</h3>
+            <ul>
+                <li>Catatan transaksi keuangan (pemasukan dan pengeluaran)</li>
+                <li>Data anggaran (budget) bulanan</li>
+                <li>Daftar belanja</li>
+                <li>Informasi dompet/wallet</li>
+                <li>Preferensi pengaturan aplikasi (tema, PIN)</li>
+            </ul>
+            <div class="highlight">
+                <p>✅ Data di atas <strong>tidak pernah</strong> dikirim ke server eksternal. Semua tersimpan hanya di perangkat Anda.</p>
+            </div>
+
+            <h3 style="margin: 16px 0 8px; font-size: 16px;">Data yang Dikumpulkan oleh Layanan Pihak Ketiga</h3>
+            <p>Aplikasi ini menggunakan layanan pihak ketiga yang mungkin mengumpulkan informasi:</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Layanan</th>
+                        <th>Data yang Dikumpulkan</th>
+                        <th>Tujuan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Google AdMob</strong></td>
+                        <td>Identifier iklan, data perangkat</td>
+                        <td>Menampilkan iklan</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Google Speech-to-Text</strong></td>
+                        <td>Rekaman suara (saat fitur digunakan)</td>
+                        <td>Konversi suara ke teks untuk input transaksi</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2><span class="emoji">🔐</span> Izin Aplikasi</h2>
+            <p>Aplikasi meminta izin berikut dan hanya digunakan untuk tujuan yang dijelaskan:</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Izin</th>
+                        <th>Tujuan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>RECORD_AUDIO</strong></td>
+                        <td>Fitur input transaksi menggunakan suara (voice input). Hanya aktif saat pengguna menggunakan fitur ini.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>INTERNET</strong></td>
+                        <td>Menampilkan iklan (Google AdMob) dan memproses input suara.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>BLUETOOTH</strong></td>
+                        <td>Koneksi dengan printer Bluetooth untuk mencetak laporan/nota.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2><span class="emoji">🛡️</span> Keamanan Data</h2>
+            <ul>
+                <li>Semua data keuangan disimpan <strong>lokal di perangkat</strong> menggunakan database SQLite yang terenkripsi.</li>
+                <li>Aplikasi menyediakan fitur <strong>PIN Lock</strong> untuk melindungi akses ke data keuangan Anda.</li>
+                <li>Kami <strong>tidak memiliki akses</strong> ke data keuangan Anda karena tidak ada data yang dikirim ke server kami.</li>
+                <li>Jika Anda menghapus aplikasi, semua data lokal akan terhapus secara permanen.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2><span class="emoji">📢</span> Iklan</h2>
+            <p>
+                Aplikasi ini menampilkan iklan melalui <strong>Google AdMob</strong> untuk mendukung pengembangan aplikasi.
+                Google AdMob mungkin menggunakan identifier perangkat dan cookies untuk menampilkan iklan yang relevan.
+            </p>
+            <p>
+                Untuk informasi lebih lanjut tentang bagaimana Google menggunakan data Anda, silakan baca 
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Kebijakan Privasi Google</a>.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2><span class="emoji">👶</span> Privasi Anak-Anak</h2>
+            <p>
+                Aplikasi ini tidak dirancang untuk anak-anak di bawah usia 13 tahun. 
+                Kami tidak secara sadar mengumpulkan informasi pribadi dari anak-anak di bawah 13 tahun.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2><span class="emoji">🔄</span> Perubahan Kebijakan</h2>
+            <p>
+                Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. 
+                Perubahan akan diposting di halaman ini dengan tanggal pembaruan yang baru.
+                Kami menyarankan Anda untuk meninjau kebijakan ini secara berkala.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2><span class="emoji">📬</span> Hubungi Kami</h2>
+            <p>
+                Jika Anda memiliki pertanyaan atau saran mengenai Kebijakan Privasi ini, 
+                silakan hubungi kami melalui:
+            </p>
+            <ul>
+                <li>GitHub: <a href="https://github.com/yopi23" target="_blank" rel="noopener">github.com/yopi23</a></li>
+                <li>Repository: <a href="https://github.com/yopi23/catatuang-privacy" target="_blank" rel="noopener">github.com/yopi23/catatuang-privacy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 Catat Uang. Semua hak dilindungi.</p>
+            <p style="margin-top: 4px;">
+                <a href="https://play.google.com/store/apps/details?id=com.catatuang.app">Google Play Store</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
